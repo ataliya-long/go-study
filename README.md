@@ -10,5 +10,14 @@ https://hub.docker.com/r/ataliyas/tour
 <img src="./img/1.jpg" style="zoom:150%;" />
 
 <img src="./img/2.jpg" style="zoom:200%;" />
+用法：
+<hr>
+拉去镜像：
+<br>
+docker pull ataliyas/tour
+<br>
+在拉去镜像后，运行这个命令，记得打开9554端口，然后就可以在浏览器输入你的http://ip:9554
+<br>
+docker run -d -p 9554:3999 ataliyas/tour:latest
 
 
