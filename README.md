@@ -20,4 +20,7 @@ docker pull ataliyas/tour
 <br>
 docker run -d -p 9554:3999 ataliyas/tour:latest
 
+已经搭建好的：
+http://43.139.75.125:9554/
+
 
